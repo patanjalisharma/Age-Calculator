@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    background-image: url("https://img.freepik.com/free-photo/top-view-calculator-notebook-frame_23-2149103980.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+.container {
+    padding-top: 19vw;
+    padding-left: 2vw;
+}
+
+.js {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.ac {
+    color: #f8a384;
+    font-size: 60px;
+    margin-top: -0.5vw;
+    margin-bottom: 1.5vw;
+    font-weight: 900;
+}
+
+#input {
+    padding: 10px 80px;
+    font-size: large;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button {
+
+    padding: 10px 30px;
+    font-size: large;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .container {
+        padding-top: 19vw;
+        padding-left: 2vw;
+    }
+
+    .js {
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .ac {
+        color: #f8a384;
+        font-size: 31px;
+        margin-top: -0.5vw;
+        margin-bottom: 1.5vw;
+        font-weight: 900;
+    }
+
+    #input {
+        padding: 8px 68px;
+        font-size: small;
+        border: 2px solid aqua;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    button {
+        padding: 6px 38px;
+        font-size: small;
+        border: 3px solid aqua;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 2vw;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+}
